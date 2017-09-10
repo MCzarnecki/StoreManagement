@@ -1,0 +1,18 @@
+<table class="table">
+  <thead class="thead-inverse">
+    <tr>
+      <th>Name</th>
+      <th>Surname</th>
+      <th>Address</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let member of members">
+      <th>{{member.name}}</th>
+      <th>{{member.surname}}</th>
+      <th>{{member.address}}</th>
+      <th>{{member.status}}</th>
+    </tr>
+  </tbody>
+</table>
